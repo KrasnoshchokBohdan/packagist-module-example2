@@ -1,0 +1,24 @@
+{
+    "name": "packagisttest987/module-example2",
+    "description": "Some",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "packagisttest987/module-example": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PackagistTest987\\Example2\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Krasnoshchok Bohdan",
+            "email": "krasnoshchok.bohdan@gmail.com"
+        }
+    ]
+}
